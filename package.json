@@ -5,13 +5,6 @@
 	"main": "build/Tone.js",
 	"module": "build/esm/index.js",
 	"types": "build/esm/index.d.ts",
-	"files": [
-		"README.md",
-		"LICENSE.md",
-		"build",
-		"docs",
-		"Tone"
-	],
 	"scripts": {
 		"build": "npm run increment && rm -rf build && npm run ts:build && npm run webpack:build",
 		"codecov": "codecov",

@@ -95,6 +95,7 @@
 		"yargs": "^13.2.0"
 	},
 	"dependencies": {
+		"@types/node": "^14.14.35",
 		"standardized-audio-context": "^25.1.8",
 		"tslib": "^2.0.1"
 	},
